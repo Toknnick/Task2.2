@@ -16,7 +16,7 @@ namespace Task2._2
             while (inputWord != stopWord)
             {
                 Console.WriteLine("Введите стоп слово");
-                inputWord = Console.ReadLine();
+                inputWord = Console.ReadLine().ToLower().Trim();
             }
         }
     }
